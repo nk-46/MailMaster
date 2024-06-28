@@ -1,0 +1,13 @@
+{
+  "app": {
+    "name": "MailMaster",
+    "short_description": "Helps support engineers to draft customer emails professionally",
+    "long_description": "This new tool is called the MailMaster App, and it's designed to integrate seamlessly with our Zendesk Support Portal. The idea for the MailMaster App came from our ongoing efforts to improve response quality and efficiency. We noticed that our support team spends a significant amount of time crafting responses that are both professional and clear. We wanted to create a tool that would streamline this process and leverage artificial intelligence to assist in generating polished responses quickly.",
+    "installation_instructions": "Add your OpenAI API key and click install.\n\nTo gain access to OpenAI's API,\n\n1. Visit the OpenAI website (https://www.openai.com/) and navigate to the API section\n\n2. Create an OpenAI account if you don't already have one. This may involve providing necessary information\n\n3. Familiarize yourself with the OpenAI Developer Dashboard, which is where you will manage your API access and obtain necessary credentials.\n\n",
+    "parameters": {
+      "openAiApiToken" : {
+        "label": "OpenAI API key"
+      }
+    }
+  }
+}
