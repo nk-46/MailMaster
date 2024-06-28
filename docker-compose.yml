@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  finalnkplugin:
+    image: finalnkplugin
+    build:
+      context: assets
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5000:5000

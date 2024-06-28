@@ -1,0 +1,20 @@
+{
+  "name": "MailMaster",
+  "author": {
+    "name": "Niteesh Kanneganti",
+    "email": "niteesh.kanneganti@plivo.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "domainWhitelist": ["api.openai.com"]
+}
